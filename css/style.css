@@ -11,8 +11,6 @@ a, a:hover{
 }
 h1, h2, h3{
     color: #202428;
-}
-h2{
     margin-bottom: 30px;
 }
 img{
@@ -51,6 +49,11 @@ a.link-btn:hover{
 }
 .biography{
     background-image: url(../img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latestwork{
+    background-image: url(../img/latest-work-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
